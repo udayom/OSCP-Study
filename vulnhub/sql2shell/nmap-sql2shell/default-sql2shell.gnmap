@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Thu Jun 25 21:25:09 2020 as: nmap -sV -sC -oA nmap-sql2shell/default-sql2shell 192.168.111.147
+Host: 192.168.111.147 ()	Status: Up
+Host: 192.168.111.147 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.5p1 Debian 6+squeeze2 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.16 ((Debian))/	Ignored State: closed (998)
+# Nmap done at Thu Jun 25 21:25:16 2020 -- 1 IP address (1 host up) scanned in 7.08 seconds

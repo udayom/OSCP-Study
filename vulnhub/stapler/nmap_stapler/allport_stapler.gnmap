@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Thu Jun 11 21:08:54 2020 as: nmap -p- -oA nmap_stapler/allport_stapler 192.168.111.136
+Host: 192.168.111.136 ()	Status: Up
+Host: 192.168.111.136 ()	Ports: 20/closed/tcp//ftp-data///, 21/open/tcp//ftp///, 22/open/tcp//ssh///, 53/open/tcp//domain///, 80/open/tcp//http///, 123/closed/tcp//ntp///, 137/closed/tcp//netbios-ns///, 138/closed/tcp//netbios-dgm///, 139/open/tcp//netbios-ssn///, 666/open/tcp//doom///, 3306/open/tcp//mysql///, 12380/open/tcp//unknown///	Ignored State: filtered (65523)
+# Nmap done at Thu Jun 11 21:10:51 2020 -- 1 IP address (1 host up) scanned in 116.49 seconds

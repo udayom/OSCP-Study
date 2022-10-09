@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Tue Jun 23 20:10:36 2020 as: nmap -sC -sV -oA nmap-vulnix/default-vulnix 192.168.111.144
+Host: 192.168.111.144 ()	Status: Up
+Host: 192.168.111.144 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.9p1 Debian 5ubuntu1 (Ubuntu Linux; protocol 2.0)/, 25/open/tcp//smtp//Postfix smtpd/, 79/open/tcp//finger//Linux fingerd/, 110/open/tcp//pop3//Dovecot pop3d/, 111/open/tcp//rpcbind//2-4 (RPC #100000)/, 143/open/tcp//imap//Dovecot imapd/, 512/open/tcp//exec//netkit-rsh rexecd/, 513/open/tcp//login?///, 514/open/tcp//tcpwrapped///, 993/open/tcp//ssl|imaps?///, 995/open/tcp//ssl|pop3s?///, 2049/open/tcp//nfs_acl//2-3 (RPC #100227)/	Ignored State: closed (988)
+# Nmap done at Tue Jun 23 20:13:43 2020 -- 1 IP address (1 host up) scanned in 187.34 seconds

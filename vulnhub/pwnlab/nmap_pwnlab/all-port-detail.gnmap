@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Fri Jun 12 21:53:56 2020 as: nmap -sV -sC -p- -oA nmap_pwnlab/all-port-detail 192.168.111.138
+Host: 192.168.111.138 ()	Status: Up
+Host: 192.168.111.138 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.10 ((Debian))/, 111/open/tcp//rpcbind//2-4 (RPC #100000)/, 3306/open/tcp//mysql//MySQL 5.5.47-0+deb8u1/, 56544/open/tcp//status//1 (RPC #100024)/	Ignored State: closed (65531)
+# Nmap done at Fri Jun 12 21:54:12 2020 -- 1 IP address (1 host up) scanned in 16.29 seconds

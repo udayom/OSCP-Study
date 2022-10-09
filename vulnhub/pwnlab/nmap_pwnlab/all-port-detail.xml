@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Fri Jun 12 21:53:56 2020 as: nmap -sV -sC -p- -oA nmap_pwnlab/all-port-detail 192.168.111.138 -->
+<nmaprun scanner="nmap" args="nmap -sV -sC -p- -oA nmap_pwnlab/all-port-detail 192.168.111.138" start="1591984436" startstr="Fri Jun 12 21:53:56 2020" version="7.80" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1591984436" endtime="1591984452"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.111.138" addrtype="ipv4"/>
+<address addr="00:0C:29:33:11:78" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65531">
+<extrareasons reason="resets" count="65531"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Apache httpd" version="2.4.10" extrainfo="(Debian)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.10</cpe></service><script id="http-server-header" output="Apache/2.4.10 (Debian)"><elem>Apache/2.4.10 (Debian)</elem>
+</script><script id="http-title" output="PwnLab Intranet Image Hosting"><elem key="title">PwnLab Intranet Image Hosting</elem>
+</script></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="rpcbind" version="2-4" extrainfo="RPC #100000" method="probed" conf="10"/><script id="rpcinfo" output="&#xa;  program version    port/proto  service&#xa;  100000  2,3,4        111/tcp   rpcbind&#xa;  100000  2,3,4        111/udp   rpcbind&#xa;  100000  3,4          111/tcp6  rpcbind&#xa;  100000  3,4          111/udp6  rpcbind&#xa;  100024  1          33816/tcp6  status&#xa;  100024  1          53392/udp   status&#xa;  100024  1          56544/tcp   status&#xa;  100024  1          60055/udp6  status&#xa;"><table key="100000">
+<table key="udp">
+<table key="version">
+<elem>2</elem>
+<elem>3</elem>
+<elem>4</elem>
+</table>
+<elem key="port">111</elem>
+<elem key="owner">superuser</elem>
+<elem key="addr">0.0.0.0</elem>
+</table>
+<table key="udp6">
+<table key="version">
+<elem>3</elem>
+<elem>4</elem>
+</table>
+<elem key="port">111</elem>
+<elem key="owner">superuser</elem>
+<elem key="addr">::</elem>
+</table>
+<table key="tcp">
+<table key="version">
+<elem>2</elem>
+<elem>3</elem>
+<elem>4</elem>
+</table>
+<elem key="port">111</elem>
+<elem key="owner">superuser</elem>
+<elem key="addr">0.0.0.0</elem>
+</table>
+<table key="tcp6">
+<table key="version">
+<elem>3</elem>
+<elem>4</elem>
+</table>
+<elem key="port">111</elem>
+<elem key="owner">superuser</elem>
+<elem key="addr">::</elem>
+</table>
+<table key="local">
+<elem key="owner">superuser</elem>
+<table key="version">
+<elem>3</elem>
+<elem>4</elem>
+</table>
+<elem key="addr">/run/rpcbind.sock</elem>
+</table>
+</table>
+<table key="100024">
+<table key="udp">
+<table key="version">
+<elem>1</elem>
+</table>
+<elem key="port">53392</elem>
+<elem key="owner">106</elem>
+<elem key="addr">0.0.0.0</elem>
+</table>
+<table key="udp6">
+<table key="version">
+<elem>1</elem>
+</table>
+<elem key="port">60055</elem>
+<elem key="owner">106</elem>
+<elem key="addr">::</elem>
+</table>
+<table key="tcp">
+<table key="version">
+<elem>1</elem>
+</table>
+<elem key="port">56544</elem>
+<elem key="owner">106</elem>
+<elem key="addr">0.0.0.0</elem>
+</table>
+<table key="tcp6">
+<table key="version">
+<elem>1</elem>
+</table>
+<elem key="port">33816</elem>
+<elem key="owner">106</elem>
+<elem key="addr">::</elem>
+</table>
+</table>
+</script></port>
+<port protocol="tcp" portid="3306"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="mysql" product="MySQL" version="5.5.47-0+deb8u1" method="probed" conf="10"><cpe>cpe:/a:mysql:mysql:5.5.47-0%2Bdeb8u1</cpe></service><script id="mysql-info" output="&#xa;  Protocol: 10&#xa;  Version: 5.5.47-0+deb8u1&#xa;  Thread ID: 42&#xa;  Capabilities flags: 63487&#xa;  Some Capabilities: Support41Auth, LongColumnFlag, Speaks41ProtocolOld, IgnoreSigpipes, DontAllowDatabaseTableColumn, LongPassword, FoundRows, InteractiveClient, ODBCClient, SupportsTransactions, SupportsCompression, SupportsLoadDataLocal, Speaks41ProtocolNew, IgnoreSpaceBeforeParenthesis, ConnectWithDatabase, SupportsAuthPlugins, SupportsMultipleStatments, SupportsMultipleResults&#xa;  Status: Autocommit&#xa;  Salt: 4Lc-S&gt;yi&quot;kt)k_{k*-@;&#xa;  Auth Plugin Name: mysql_native_password"><elem key="Protocol">10</elem>
+<elem key="Version">5.5.47-0+deb8u1</elem>
+<elem key="Thread ID">42</elem>
+<elem key="Capabilities flags">63487</elem>
+<table key="Some Capabilities">
+<elem>Support41Auth</elem>
+<elem>LongColumnFlag</elem>
+<elem>Speaks41ProtocolOld</elem>
+<elem>IgnoreSigpipes</elem>
+<elem>DontAllowDatabaseTableColumn</elem>
+<elem>LongPassword</elem>
+<elem>FoundRows</elem>
+<elem>InteractiveClient</elem>
+<elem>ODBCClient</elem>
+<elem>SupportsTransactions</elem>
+<elem>SupportsCompression</elem>
+<elem>SupportsLoadDataLocal</elem>
+<elem>Speaks41ProtocolNew</elem>
+<elem>IgnoreSpaceBeforeParenthesis</elem>
+<elem>ConnectWithDatabase</elem>
+<elem>SupportsAuthPlugins</elem>
+<elem>SupportsMultipleStatments</elem>
+<elem>SupportsMultipleResults</elem>
+</table>
+<elem key="Status">Autocommit</elem>
+<elem key="Salt">4Lc-S&gt;yi&quot;kt)k_{k*-@;</elem>
+<elem key="Auth Plugin Name">mysql_native_password</elem>
+</script></port>
+<port protocol="tcp" portid="56544"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="status" version="1" extrainfo="RPC #100024" method="probed" conf="10"/></port>
+</ports>
+<times srtt="1930" rttvar="147" to="100000"/>
+</host>
+<runstats><finished time="1591984452" timestr="Fri Jun 12 21:54:12 2020" elapsed="16.29" summary="Nmap done at Fri Jun 12 21:54:12 2020; 1 IP address (1 host up) scanned in 16.29 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

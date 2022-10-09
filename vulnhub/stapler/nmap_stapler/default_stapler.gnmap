@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Thu Jun 11 20:42:21 2020 as: nmap -sC -sV -oA nmap_stapler/default_stapler 192.168.111.136
+Host: 192.168.111.136 ()	Status: Up
+Host: 192.168.111.136 ()	Ports: 20/closed/tcp//ftp-data///, 21/open/tcp//ftp//vsftpd 2.0.8 or later/, 22/open/tcp//ssh//OpenSSH 7.2p2 Ubuntu 4 (Ubuntu Linux; protocol 2.0)/, 53/open/tcp//domain//dnsmasq 2.75/, 80/open/tcp//http//PHP cli server 5.5 or later/, 139/open/tcp//netbios-ssn//Samba smbd 4.3.9-Ubuntu (workgroup: WORKGROUP)/, 666/open/tcp//doom?///, 3306/open/tcp//mysql//MySQL 5.7.12-0ubuntu1/	Ignored State: filtered (992)
+# Nmap done at Thu Jun 11 20:43:14 2020 -- 1 IP address (1 host up) scanned in 53.78 seconds

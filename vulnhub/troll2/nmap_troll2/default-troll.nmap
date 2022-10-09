@@ -1,0 +1,19 @@
+# Nmap 7.80 scan initiated Wed Jun 24 20:09:07 2020 as: nmap -sC -sV -oA nmap_troll2/default-troll 192.168.111.146
+Nmap scan report for 192.168.111.146
+Host is up (0.0068s latency).
+Not shown: 997 closed ports
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 2.0.8 or later
+22/tcp open  ssh     OpenSSH 5.9p1 Debian 5ubuntu1.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 82:fe:93:b8:fb:38:a6:77:b5:a6:25:78:6b:35:e2:a8 (DSA)
+|   2048 7d:a5:99:b8:fb:67:65:c9:64:86:aa:2c:d6:ca:08:5d (RSA)
+|_  256 91:b8:6a:45:be:41:fd:c8:14:b5:02:a0:66:7c:8c:96 (ECDSA)
+80/tcp open  http    Apache httpd 2.2.22 ((Ubuntu))
+|_http-server-header: Apache/2.2.22 (Ubuntu)
+|_http-title: Site doesn't have a title (text/html).
+MAC Address: 00:0C:29:F6:9E:79 (VMware)
+Service Info: Host: Tr0ll; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jun 24 20:09:22 2020 -- 1 IP address (1 host up) scanned in 15.04 seconds

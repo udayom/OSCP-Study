@@ -1,0 +1,8 @@
+Nmap scan report for 192.168.111.138
+Host is up (0.00072s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+111/tcp  open  rpcbind
+3306/tcp open  mysql
+MAC Address: 00:0C:29:33:11:78 (VMware)
