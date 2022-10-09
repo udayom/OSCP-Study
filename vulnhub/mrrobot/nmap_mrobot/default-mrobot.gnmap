@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Wed Jun 17 19:44:05 2020 as: nmap -sC -sV -oA nmap_mrobot/default-mrobot 192.168.111.143
+Host: 192.168.111.143 ()	Status: Up
+Host: 192.168.111.143 ()	Ports: 22/closed/tcp//ssh///, 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (997)
+# Nmap done at Wed Jun 17 19:44:23 2020 -- 1 IP address (1 host up) scanned in 18.39 seconds
