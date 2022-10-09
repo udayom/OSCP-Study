@@ -1,0 +1,20 @@
+robert@Kioptrix4:/root$ cat congrats.txt 
+Congratulations!
+You've got root.
+
+There is more then one way to get root on this system. Try and find them.
+I've only tested two (2) methods, but it doesn't mean there aren't more.
+As always there's an easy way, and a not so easy way to pop this box.
+Look for other methods to get root privileges other than running an exploit.
+
+It took a while to make this. For one it's not as easy as it may look, and
+also work and family life are my priorities. Hobbies are low on my list.
+Really hope you enjoyed this one.
+
+If you haven't already, check out the other VMs available on:
+www.kioptrix.com
+
+Thanks for playing,
+loneferret
+
+robert@Kioptrix4:/root$ 

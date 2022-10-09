@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Tue Jun 16 18:51:31 2020 as: nmap -sC -sV -oA nmap-brainpan/defaultscan-brainpan 192.168.111.142
+Host: 192.168.111.142 ()	Status: Up
+Host: 192.168.111.142 ()	Ports: 9999/open/tcp//abyss?///, 10000/open/tcp//http//SimpleHTTPServer 0.6 (Python 2.7.3)/	Ignored State: closed (998)
+# Nmap done at Tue Jun 16 18:52:09 2020 -- 1 IP address (1 host up) scanned in 38.19 seconds

@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Tue Jun 16 19:03:25 2020 as: nmap -p- -oA nmap-brainpan/al-port-brainpan 192.168.111.142
+Host: 192.168.111.142 ()	Status: Up
+Host: 192.168.111.142 ()	Ports: 9999/open/tcp//abyss///, 10000/open/tcp//snet-sensor-mgmt///	Ignored State: closed (65533)
+# Nmap done at Tue Jun 16 19:03:29 2020 -- 1 IP address (1 host up) scanned in 4.55 seconds

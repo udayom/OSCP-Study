@@ -1,0 +1,10 @@
+# Nmap 7.80 scan initiated Tue Jun 16 19:03:25 2020 as: nmap -p- -oA nmap-brainpan/al-port-brainpan 192.168.111.142
+Nmap scan report for 192.168.111.142
+Host is up (0.0010s latency).
+Not shown: 65533 closed ports
+PORT      STATE SERVICE
+9999/tcp  open  abyss
+10000/tcp open  snet-sensor-mgmt
+MAC Address: 00:0C:29:ED:80:92 (VMware)
+
+# Nmap done at Tue Jun 16 19:03:29 2020 -- 1 IP address (1 host up) scanned in 4.55 seconds

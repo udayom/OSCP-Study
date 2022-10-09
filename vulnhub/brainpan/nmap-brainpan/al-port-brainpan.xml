@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Tue Jun 16 19:03:25 2020 as: nmap -p- -oA nmap-brainpan/al-port-brainpan 192.168.111.142 -->
+<nmaprun scanner="nmap" args="nmap -p- -oA nmap-brainpan/al-port-brainpan 192.168.111.142" start="1592319805" startstr="Tue Jun 16 19:03:25 2020" version="7.80" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1592319805" endtime="1592319809"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.111.142" addrtype="ipv4"/>
+<address addr="00:0C:29:ED:80:92" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65533">
+<extrareasons reason="resets" count="65533"/>
+</extraports>
+<port protocol="tcp" portid="9999"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="abyss" method="table" conf="3"/></port>
+<port protocol="tcp" portid="10000"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="snet-sensor-mgmt" method="table" conf="3"/></port>
+</ports>
+<times srtt="1036" rttvar="1140" to="100000"/>
+</host>
+<runstats><finished time="1592319809" timestr="Tue Jun 16 19:03:29 2020" elapsed="4.55" summary="Nmap done at Tue Jun 16 19:03:29 2020; 1 IP address (1 host up) scanned in 4.55 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
